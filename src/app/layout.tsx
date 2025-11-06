@@ -29,7 +29,7 @@ export default function RootLayout({
       <body
         className={`${geistImFellEnglish.variable} ${geistPirataOne.variable}`}
       >
-        {children}
+        <div style={{ margin: '20px' }}>{children}</div>
       </body>
     </html>
   );
